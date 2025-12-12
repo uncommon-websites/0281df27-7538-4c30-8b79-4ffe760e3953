@@ -14,71 +14,65 @@
 
   // Data
   const heroImages = [
-    "https://images.unsplash.com/photo-1522163182402-834f871fd851?q=80&w=600&auto=format&fit=crop", // Climbing
-    "https://images.unsplash.com/photo-1544967082-d9d25d867d66?q=80&w=600&auto=format&fit=crop", // Bench/View
-    "https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?q=80&w=600&auto=format&fit=crop", // Hiking/Mountain
-    "https://images.unsplash.com/photo-1476480862126-209bfaa8edc8?q=80&w=600&auto=format&fit=crop", // Running
-    "https://images.unsplash.com/photo-1551698618-1dfe5d97d256?q=80&w=600&auto=format&fit=crop", // Snow
-    "https://images.unsplash.com/photo-1596329606822-790d946d9e29?q=80&w=600&auto=format&fit=crop"  // Park
+    "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?q=80&w=600&auto=format&fit=crop", // Woman in field
+    "https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=600&auto=format&fit=crop", // Garden/farm
+    "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=600&auto=format&fit=crop", // Family cooking
+    "https://images.unsplash.com/photo-1488459716781-31db52582fe9?q=80&w=600&auto=format&fit=crop", // Farmers market
+    "https://images.unsplash.com/photo-1490818387583-1baba5e638af?q=80&w=600&auto=format&fit=crop", // Picnic/outdoor
+    "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=600&auto=format&fit=crop"  // Healthy food
   ];
 
   const benefitCards = [
     {
-      title: "All your data. One place.",
-      desc: "Holo takes into account your lifestyle and habits, your past results, and connects your wearable data.",
-      image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=800&auto=format&fit=crop"
+      title: "Instant ingredient insights.",
+      desc: "Scan any barcode and get immediate safety alerts about hidden toxins, allergens, and questionable ingredients.",
+      image: "https://images.unsplash.com/photo-1534452203293-494d7ddbf7e0?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "Better control over your performance.",
-      desc: "Start thriving by tracking your daily strain, recovery and sleep.",
-      image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop"
+      title: "Customizable safety filters.",
+      desc: "Set your family's preferences and dietary needs. Olive alerts you to ingredients that don't meet your standards.",
+      image: "https://images.unsplash.com/photo-1583258292688-d0213dc5a3a8?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "Proactive care.",
-      desc: "Health is not just the absence of illness but the engagement with vitality everyday.",
-      image: "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop"
+      title: "Comprehensive ingredient database.",
+      desc: "Access our proprietary database of thousands of ingredients with clear explanations of what they are and why they matter.",
+      image: "https://images.unsplash.com/photo-1542838132-92c53300491e?q=80&w=800&auto=format&fit=crop"
     }
   ];
 
   const steps = [
     {
       step: 1,
-      title: "Chose the plan that fits you better.",
-      desc: "Two options available. Get the Core plan with 110+ biomarkers to access the most advance lab test or choose the Starter plan to test 60+ essential biomarkers.",
+      title: "Download Olive.",
+      desc: "Get the free app from the App Store or Google Play. Create your profile and set your family's dietary preferences and safety filters.",
       image: "plan"
     },
     {
       step: 2,
-      title: "Schedule your appointment.",
-      desc: "Choose the most convenient lab location for you and follow the instructions before the test.",
+      title: "Scan any product.",
+      desc: "Point your camera at any barcode while shopping. Olive instantly analyzes the ingredients against your preferences.",
       image: "schedule"
     },
     {
       step: 3,
-      title: "Receive first results.",
-      desc: "Within 24 hours directly on your app. When all your results are available, our medical team will start working on your Clinician Notes.",
+      title: "Get instant alerts.",
+      desc: "See color-coded safety ratings and detailed breakdowns of concerning ingredients. Know exactly what you're buying.",
       image: "results"
     },
     {
       step: 4,
-      title: "Your Clinician Notes are ready.",
-      desc: "Receive your Clinician Notes and personalized Action Plan within 7 days from your results.",
+      title: "Make informed choices.",
+      desc: "Browse safer alternatives and build your personal list of trusted products. Shop with confidence every time.",
       image: "notes"
-    },
-    {
-      step: 5,
-      title: "Start improving.",
-      desc: "Continue your health journey together with Holo AI and your Action Plan. Recheck in 6 months with the Follow-up test.",
-      image: "improve"
     }
   ];
 
   const faqs = [
-    "What does a Holo membership include?",
-    "Is Holo for you?",
-    "What more does Holo offer than my regular doctor or insurance?",
-    "I recently got tested. Should I wait to join Holo?",
-    "Which biomarkers are included in the Holo membership?"
+    "How does Olive identify harmful ingredients?",
+    "Can I customize what ingredients to avoid?",
+    "Does Olive work with all products?",
+    "Is my shopping data kept private?",
+    "How is Olive different from other scanning apps?"
   ];
 </script>
 
@@ -88,13 +82,13 @@
   <!-- Hero Section -->
   <section class="pt-32 pb-16 md:pt-40 md:pb-24 px-6 text-center max-w-7xl mx-auto">
     <h1 class="text-4xl md:text-6xl lg:text-7xl font-medium tracking-tight text-[#1A1A1A] mb-6 leading-[1.1]">
-      Your companion<br />for lifelong vitality.
+      Safe groceries.<br />Happy families.
     </h1>
     <p class="text-gray-600 text-lg md:text-xl max-w-3xl mx-auto mb-10 leading-relaxed font-light">
-      Test 110+ biomarkers every year, track all your health in a single place, and get insights from top doctors. All starting at just €199.
+      Scan any barcode and instantly know if a product is safe for your family. No more confusing labels or hidden toxins.
     </p>
     <button class="bg-[#1A1A1A] text-white px-8 py-3.5 rounded-sm font-medium hover:bg-black transition-colors">
-      Start testing
+      Download Free App
     </button>
   </section>
 
@@ -119,27 +113,35 @@
             <div class="w-20 h-4 bg-black rounded-b-xl"></div>
           </div>
           <div class="w-full h-full bg-white pt-10 px-4 overflow-hidden flex flex-col">
-            <!-- Mock UI -->
+            <!-- Mock Scanning UI -->
             <div class="flex justify-between items-center mb-6">
-              <div class="w-8 h-8 rounded-full bg-gray-200"></div>
-              <div class="w-8 h-8 rounded-full bg-gray-100"></div>
+              <div class="text-xs font-bold">Olive</div>
+              <div class="w-8 h-8 rounded-full bg-gray-100 flex items-center justify-center">
+                <div class="w-4 h-4 rounded-full bg-primary-500"></div>
+              </div>
             </div>
-            <div class="mb-6">
-              <div class="text-xs text-gray-500 mb-1">30 June</div>
-              <div class="text-2xl font-bold">1</div>
+            <div class="mb-6 text-center">
+              <div class="text-xs text-gray-500 mb-2">Scan Result</div>
+              <div class="text-xl font-bold">Organic Granola</div>
             </div>
             <div class="space-y-3">
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-green-400 rounded"></div>
+              <div class="h-20 bg-primary-50 rounded-xl w-full border border-primary-200 p-3">
+                <div class="flex items-center justify-between mb-2">
+                  <div class="text-xs font-medium">Safety Score</div>
+                  <div class="text-xs font-bold text-primary-700">A+</div>
+                </div>
+                <div class="w-full h-2 bg-primary-400 rounded"></div>
+              </div>
+              <div class="h-20 bg-orange-50 rounded-xl w-full border border-orange-200 p-3">
+                <div class="flex items-center justify-between mb-2">
+                  <div class="text-xs font-medium">Contains Allergen</div>
+                  <div class="text-xs font-bold text-orange-700">!</div>
+                </div>
+                <div class="w-3/4 h-2 bg-orange-400 rounded"></div>
               </div>
               <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-orange-400 rounded"></div>
-              </div>
-              <div class="h-20 bg-gray-50 rounded-xl w-full border border-gray-100 p-3">
-                <div class="w-1/2 h-2 bg-gray-200 rounded mb-2"></div>
-                <div class="w-full h-1 bg-blue-400 rounded"></div>
+                <div class="text-xs font-medium mb-2">12 Ingredients</div>
+                <div class="w-full h-1 bg-gray-300 rounded"></div>
               </div>
             </div>
           </div>
@@ -149,13 +151,13 @@
       <!-- Content -->
       <div class="w-full md:w-1/2 space-y-8">
         <h2 class="text-3xl md:text-4xl font-medium leading-tight text-[#1A1A1A]">
-          Your health at a glance.<br />
-          See your daily Strain, Recovery and Sleep goals. Explore your biomarkers, understand what they mean, and access your Personalized Report, including your Action Plan created after your test.
+          Ingredient safety at your fingertips.<br />
+          Scan any barcode to see instant safety ratings, detailed ingredient breakdowns, and personalized alerts based on your family's needs. Shopping for safe products has never been easier.
         </h2>
         <div class="flex items-center justify-between pt-4">
           <button class="flex items-center gap-2 text-[#1A1A1A] font-medium hover:opacity-70 transition-opacity">
             {@html PlayCircle}
-            Watch video
+            Watch demo
           </button>
           <div class="flex gap-2">
             <button class="p-2 rounded-full border border-gray-200 hover:bg-gray-50 text-gray-400 hover:text-black transition-colors">
@@ -174,10 +176,10 @@
   <section class="py-16 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-12 items-start">
       <h2 class="text-3xl md:text-5xl font-medium tracking-tight text-[#1A1A1A] leading-tight">
-        You deserve to live fully, longer, and better.
+        Your family deserves the cleanest, safest products.
       </h2>
       <p class="text-gray-600 text-lg font-light leading-relaxed">
-        Your health is more than numbers, it's your story, your future. Taking care of it today means giving yourself the chance to enjoy more years with strength, clarity, and vitality. We're here to help you protect what truly matters: a healthier, longer life.
+        Every parent wants to protect their children, but ingredient labels are confusing and overwhelming. Olive gives you the power to make informed choices in seconds, so you can shop with confidence and peace of mind. Because the health of your family shouldn't be a guessing game.
       </p>
     </div>
   </section>
@@ -201,40 +203,40 @@
   <!-- Testimonial -->
   <section class="py-24 px-6 max-w-4xl mx-auto text-center">
     <blockquote class="text-2xl md:text-3xl font-medium leading-relaxed text-[#1A1A1A] mb-8">
-      "I've always wanted a tool like Holo. It gives people real power over their health in a way that's simple and intuitive. I love how deeply personalized it is, making it easier than ever to understand your body and make smart choices"
+      "Olive has completely changed how I shop for my family. I used to spend hours researching ingredients and still felt uncertain. Now I just scan and know instantly if something is safe. It's given me such peace of mind."
     </blockquote>
     <div class="flex flex-col items-center gap-3">
-      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=100&auto=format&fit=crop" alt="Doctor" class="w-12 h-12 rounded-full object-cover" />
+      <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=100&auto=format&fit=crop" alt="Parent testimonial" class="w-12 h-12 rounded-full object-cover" />
       <div class="text-center">
-        <div class="font-medium text-sm">Dra. Cécile Merad</div>
-        <div class="text-gray-500 text-xs">Functional Doctor</div>
+        <div class="font-medium text-sm">Sarah Mitchell</div>
+        <div class="text-gray-500 text-xs">Mother of Two</div>
       </div>
     </div>
   </section>
 
   <!-- Stats Grid -->
-  <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200">
+  <section class="py-12 px-6 max-w-7xl mx-auto border-t border-gray-200" id="features">
     <div class="grid md:grid-cols-3 gap-8 text-center md:text-left">
       <div>
-        <h3 class="text-xl font-medium mb-2">15 minutes lab visit.</h3>
-        <p class="text-gray-500 text-sm font-light">In and out. Take your blood and urine test. One minute with the nurse. Quick and simple.</p>
+        <h3 class="text-xl font-medium mb-2">Scan in 2 seconds.</h3>
+        <p class="text-gray-500 text-sm font-light">Point your camera at any barcode and get instant results. No typing, no waiting.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">24 hours first results.</h3>
-        <p class="text-gray-500 text-sm font-light">Your lab test data, fast. Complete results in five business days.</p>
+        <h3 class="text-xl font-medium mb-2">50,000+ ingredients tracked.</h3>
+        <p class="text-gray-500 text-sm font-light">Our proprietary database covers thousands of products with detailed safety information.</p>
       </div>
       <div>
-        <h3 class="text-xl font-medium mb-2">Clinician Notes in 1 week.</h3>
-        <p class="text-gray-500 text-sm font-light">From data to a clear Action Plan to guide you along your health path.</p>
+        <h3 class="text-xl font-medium mb-2">Personalized for your family.</h3>
+        <p class="text-gray-500 text-sm font-light">Set custom filters for allergies, sensitivities, and dietary preferences.</p>
       </div>
     </div>
   </section>
 
   <!-- How it works -->
-  <section class="py-20 px-6 max-w-7xl mx-auto">
+  <section class="py-20 px-6 max-w-7xl mx-auto" id="how-it-works">
     <div class="mb-16 max-w-md">
       <h2 class="text-4xl font-medium mb-6">How it works.</h2>
-      <p class="text-gray-600 font-light">With two lab tests a year, daily tracking from your phone and wearables, and guidance from real doctors, Holo helps you understand what's going on inside so you can make smarter, healthier choices.</p>
+      <p class="text-gray-600 font-light">Olive makes ingredient checking effortless. Download the app, scan any product, and get instant safety alerts tailored to your family's needs. It's that simple.</p>
     </div>
 
     <div class="space-y-6">
@@ -314,16 +316,16 @@
   <!-- Dark Cards Section -->
   <section class="py-8 px-6 max-w-7xl mx-auto">
     <div class="grid md:grid-cols-2 gap-6">
-      <!-- Map Card -->
+      <!-- Database Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">A five star experience.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We partner exclusively with renowned labs.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Comprehensive and growing.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">Our proprietary ingredient database is constantly updated.</h2>
         </div>
-        <!-- Abstract Map Visual -->
-        <div class="absolute inset-0 flex items-center justify-center opacity-30 mt-20">
-           <svg viewBox="0 0 200 100" class="w-full h-full text-gray-500 fill-current">
-              <!-- Simplified dot map representation -->
+        <!-- Abstract ingredient visual -->
+        <div class="absolute inset-0 flex items-center justify-center opacity-20 mt-20">
+           <svg viewBox="0 0 200 100" class="w-full h-full text-primary-500 fill-current">
+              <!-- Simplified ingredient representation -->
               {#each Array(100) as _, i}
                 <circle cx={Math.random() * 200} cy={Math.random() * 100} r={Math.random() * 1.5} />
               {/each}
@@ -334,13 +336,13 @@
       <!-- Privacy Card -->
       <div class="bg-[#111] rounded-[40px] p-8 md:p-12 text-white min-h-[500px] flex flex-col relative overflow-hidden">
         <div class="relative z-10">
-          <h3 class="text-sm font-medium text-gray-400 mb-2">Your data is safe with us.</h3>
-          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We're built to protect your privacy by default.</h2>
+          <h3 class="text-sm font-medium text-gray-400 mb-2">Your shopping stays private.</h3>
+          <h2 class="text-2xl md:text-3xl font-medium max-w-xs">We never sell your data or share your shopping history.</h2>
         </div>
         <!-- Blurred Text Visual -->
         <div class="absolute inset-0 flex items-center justify-center mt-20 overflow-hidden">
            <div class="text-4xl font-mono text-gray-600 opacity-20 blur-sm select-none break-all p-8">
-             Elizab|%b$9yT Willi|I7m/e Magn|&5a! Trigly|?Pm_Lw
+             Parab|%b$9yT Glute|I7n/e Artif|&5a! BHA|?Pm_Lw
            </div>
         </div>
       </div>
@@ -348,66 +350,90 @@
   </section>
 
   <!-- Pricing Section -->
-  <section class="py-24 px-6 max-w-7xl mx-auto" id="join">
+  <section class="py-24 px-6 max-w-7xl mx-auto" id="download">
     <div class="text-center mb-16">
-      <h2 class="text-3xl md:text-4xl font-medium mb-4">Preventive healthcare for everyone.</h2>
-      <p class="text-gray-500 font-light max-w-2xl mx-auto">Top-tier testing, real-time tracking, and dedicated clinician guidance—made affordable. Because investing in prevention is the most important investing of your life.</p>
+      <h2 class="text-3xl md:text-4xl font-medium mb-4">Safe shopping for everyone.</h2>
+      <p class="text-gray-500 font-light max-w-2xl mx-auto">Start with our free plan and upgrade when you need advanced features. Because every family deserves access to ingredient safety information.</p>
     </div>
 
     <div class="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
-      <!-- Starter Plan -->
+      <!-- Free Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col">
-        <div class="w-12 h-12 bg-gray-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Starter</h3>
-        <p class="text-sm text-gray-500 mb-6">Begin your health journey.</p>
+        <div class="w-12 h-12 bg-primary-100 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-primary-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M16.6765 3.05148C18.9425 3.05148 20.7794 4.88843 20.7794 7.15442C20.7794 9.42043 18.9425 11.2574 16.6765 11.2574H12.5735V7.15442C12.5735 4.88843 14.4105 3.05148 16.6765 3.05148Z" fill="currentColor"/>
+            <path d="M3 7.15442C3 4.88843 4.83695 3.05148 7.10294 3.05148C9.36895 3.05148 11.2059 4.88843 11.2059 7.15442V11.2574H7.10294C4.83695 11.2574 3 9.42043 3 7.15442Z" fill="currentColor"/>
+            <path d="M7.10294 20.8309C4.83695 20.8309 3 18.9939 3 16.7279C3 14.4619 4.83695 12.625 7.10294 12.625H11.2059V16.7279C11.2059 18.9939 9.36895 20.8309 7.10294 20.8309Z" fill="currentColor"/>
+            <path d="M20.7794 16.7279C20.7794 18.9939 18.9425 20.8309 16.6765 20.8309C14.4105 20.8309 12.5735 18.9939 12.5735 16.7279V12.625H16.6765C18.9425 12.625 20.7794 14.4619 20.7794 16.7279Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Free</h3>
+        <p class="text-sm text-gray-500 mb-6">Start your safe shopping journey.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€199</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$0</span>
+          <span class="text-gray-400 text-sm">/forever</span>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Two tests a year covering 60+ essential biomarkers.
+            Unlimited barcode scans
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Measure your Biological Age and Aging Rate with every test.
+            Basic ingredient safety ratings
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and personalized Action Plan to guide your health.
+            Common allergen alerts
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Save favorite products
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Download Free</button>
       </div>
 
-      <!-- Core Plan -->
+      <!-- Premium Plan -->
       <div class="bg-white rounded-[32px] p-8 flex flex-col relative overflow-hidden">
-        <div class="absolute top-0 right-0 bg-[#FFF8E1] px-4 py-1 rounded-bl-xl text-xs font-medium text-orange-800">Most Popular</div>
-        <div class="w-12 h-12 bg-orange-100 rounded-full mb-6"></div>
-        <h3 class="text-2xl font-medium mb-1">Core</h3>
-        <p class="text-sm text-gray-500 mb-6">The most advanced longevity membership.</p>
+        <div class="absolute top-0 right-0 bg-primary-100 px-4 py-1 rounded-bl-xl text-xs font-medium text-primary-800">Most Popular</div>
+        <div class="w-12 h-12 bg-primary-200 rounded-full mb-6 flex items-center justify-center">
+          <svg class="w-6 h-6 text-primary-700" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M16.6765 3.05148C18.9425 3.05148 20.7794 4.88843 20.7794 7.15442C20.7794 9.42043 18.9425 11.2574 16.6765 11.2574H12.5735V7.15442C12.5735 4.88843 14.4105 3.05148 16.6765 3.05148Z" fill="currentColor"/>
+            <path d="M3 7.15442C3 4.88843 4.83695 3.05148 7.10294 3.05148C9.36895 3.05148 11.2059 4.88843 11.2059 7.15442V11.2574H7.10294C4.83695 11.2574 3 9.42043 3 7.15442Z" fill="currentColor"/>
+            <path d="M7.10294 20.8309C4.83695 20.8309 3 18.9939 3 16.7279C3 14.4619 4.83695 12.625 7.10294 12.625H11.2059V16.7279C11.2059 18.9939 9.36895 20.8309 7.10294 20.8309Z" fill="currentColor"/>
+            <path d="M20.7794 16.7279C20.7794 18.9939 18.9425 20.8309 16.6765 20.8309C14.4105 20.8309 12.5735 18.9939 12.5735 16.7279V12.625H16.6765C18.9425 12.625 20.7794 14.4619 20.7794 16.7279Z" fill="currentColor"/>
+          </svg>
+        </div>
+        <h3 class="text-2xl font-medium mb-1">Premium</h3>
+        <p class="text-sm text-gray-500 mb-6">Complete family protection.</p>
         <div class="mb-8">
-          <span class="text-2xl font-medium">€399</span>
-          <span class="text-gray-400 text-sm">/yr</span>
-          <div class="text-[10px] text-pink-500 mt-1 font-medium">Pay in installments with Klarna.</div>
+          <span class="text-2xl font-medium">$4.99</span>
+          <span class="text-gray-400 text-sm">/month</span>
         </div>
         <ul class="space-y-4 mb-8 flex-1">
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Full Core test of 110+ biomarkers plus a Follow-up with 60+ biomarkers to track change.
+            Everything in Free, plus:
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            First test includes an extended Hormonal and Vitamins panel for deeper insights.
+            Advanced customizable filters for your family's specific needs
           </li>
           <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
             <span class="mt-0.5 text-black">{@html Check}</span>
-            Clinician Notes and a personalized Action Plan built on your most complete lab testing profile.
+            Detailed ingredient explanations and health impact reports
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Safer product recommendations and alternatives
+          </li>
+          <li class="flex items-start gap-3 text-sm text-gray-600 font-light">
+            <span class="mt-0.5 text-black">{@html Check}</span>
+            Family sharing for up to 5 profiles
           </li>
         </ul>
-        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Join now</button>
+        <button class="w-full bg-[#1A1A1A] text-white py-3 rounded-sm font-medium hover:bg-black transition-colors">Start Free Trial</button>
       </div>
     </div>
   </section>
@@ -435,18 +461,19 @@
     <div class="max-w-7xl mx-auto">
       <div class="flex flex-col md:flex-row justify-between items-start md:items-center gap-8 mb-16">
         <div class="flex items-center gap-2">
-           <div class="relative w-5 h-5 flex items-center justify-center">
-              <div class="absolute w-full h-[1.5px] bg-black rotate-45"></div>
-              <div class="absolute w-full h-[1.5px] bg-black -rotate-45"></div>
-              <div class="absolute w-[1.5px] h-full bg-black"></div>
-              <div class="absolute w-full h-[1.5px] bg-black"></div>
-           </div>
-           <span class="font-bold text-lg tracking-widest">HOLO</span>
+          <svg class="w-6 h-6 text-primary-600" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.5" d="M16.6765 3.05148C18.9425 3.05148 20.7794 4.88843 20.7794 7.15442C20.7794 9.42043 18.9425 11.2574 16.6765 11.2574H12.5735V7.15442C12.5735 4.88843 14.4105 3.05148 16.6765 3.05148Z" fill="currentColor"/>
+            <path d="M3 7.15442C3 4.88843 4.83695 3.05148 7.10294 3.05148C9.36895 3.05148 11.2059 4.88843 11.2059 7.15442V11.2574H7.10294C4.83695 11.2574 3 9.42043 3 7.15442Z" fill="currentColor"/>
+            <path d="M7.10294 20.8309C4.83695 20.8309 3 18.9939 3 16.7279C3 14.4619 4.83695 12.625 7.10294 12.625H11.2059V16.7279C11.2059 18.9939 9.36895 20.8309 7.10294 20.8309Z" fill="currentColor"/>
+            <path d="M20.7794 16.7279C20.7794 18.9939 18.9425 20.8309 16.6765 20.8309C14.4105 20.8309 12.5735 18.9939 12.5735 16.7279V12.625H16.6765C18.9425 12.625 20.7794 14.4619 20.7794 16.7279Z" fill="currentColor"/>
+          </svg>
+          <span class="font-bold text-lg tracking-wide">Olive</span>
         </div>
         
         <nav class="flex flex-wrap gap-6 md:gap-8 text-xs font-medium text-gray-600">
-          <a href="#" class="hover:text-black">Biomarkers</a>
-          <a href="#" class="hover:text-black">FAQ</a>
+          <a href="#features" class="hover:text-black">Features</a>
+          <a href="#how-it-works" class="hover:text-black">How it Works</a>
+          <a href="#faq" class="hover:text-black">FAQ</a>
           <a href="#" class="hover:text-black">Blog</a>
           <a href="#" class="hover:text-black">Terms & Conditions</a>
           <a href="#" class="hover:text-black">Privacy Policy</a>
@@ -460,9 +487,9 @@
       </div>
 
       <div class="text-[10px] text-gray-400 leading-relaxed max-w-5xl">
-        <p class="mb-2">Holo is a technology company, not a laboratory or medical provider. All lab and medical services are provided by independent third parties, who set their own pricing. While Holo facilitates access to certain providers, it does not recommend or refer healthcare providers. Holo does not offer medical advice, lab services, diagnosis, treatment, or medical opinions. All services do not replace medical care or consultations with a licensed provider. If you have questions about lab results, consult a primary care physician or other licensed provider. All information provided by Holo is for general informational purposes only.</p>
-        <p>Holo's membership pricing includes prepaid access to certain third-party lab services. Some home and lab draw fees may apply. Additional payments beyond standard membership pricing. For more details, see our Terms & Conditions.</p>
-        <p class="mt-2">By providing your phone number, you agree to receive text messages from Holo. Message and data rates may apply. Message frequency varies.</p>
+        <p class="mb-2">Olive is a technology company providing ingredient information and safety ratings. The information provided by Olive is for educational and informational purposes only and should not be considered medical advice. Olive does not diagnose, treat, or prevent any health conditions. Always consult with a qualified healthcare provider regarding any health concerns or before making dietary changes.</p>
+        <p class="mb-2">Ingredient safety ratings are based on publicly available research and data. Individual reactions to ingredients may vary. Olive is not responsible for any adverse reactions or health outcomes resulting from product choices.</p>
+        <p class="mt-2">By using Olive, you agree to our Terms of Service and Privacy Policy. We never sell your personal data or shopping information to third parties.</p>
       </div>
     </div>
   </footer>
